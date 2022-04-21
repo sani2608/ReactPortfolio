@@ -1,3 +1,4 @@
+/* Position and size our burger button */
 .bm-burger-button {
   position: fixed;
   width: 36px;
@@ -6,28 +7,28 @@
   top: 32px;
 }
 
-/* color to buger */
+/* Color to our burger */
 .bm-burger-bars {
   background: #373a47;
 }
 
-/* color to our buger icon on hover */
+/* Color to our burger icon on hover */
 .bm-burger-bars-hover {
   background: #000;
 }
 
-/* size of cross button */
+/* Size of the cross button */
 .bm-cross-button {
   height: 24px;
   width: 24px;
 }
 
-/* color of cross button */
+/* Color of cross button */
 .bm-cross {
   background: #fff;
 }
 
-/* sidebar wrapper styles */
+/* Sidebar wrapper styles */
 .bm-menu-wrap {
   position: fixed;
   height: 100vh;
@@ -58,7 +59,7 @@
 }
 
 .menu-item:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 0;
@@ -66,7 +67,7 @@
   left: 0;
   background-color: #fff;
   visibility: hidden;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .active-item {
