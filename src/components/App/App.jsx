@@ -1,28 +1,30 @@
-import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
-import Home from '../Home/Home';
-import About from '../About/About';
-import Projects from '../Projects/Projects';
-import Skills from '../Skills/Skills';
-import Contact from '../Contact/Contact';
+import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import "./App.css";
+import Home from "../Home/Home";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
+import Skills from "../Skills/Skills";
+import Contact from "../Contact/Contact";
+import Navbar from "../Navbar/Navbar";
+import GoHome from "../GoHome/GoHome";
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <div>
-          <Routes>
-            <Route path="/" element={<Home />} />  
-            <Route path="/about" element={<About />} />  
-            <Route path="/projects" element={<Projects />} />  
-            <Route path="/skills" element={<Skills />} />  
-            <Route path="/contact" element={<Contact />} />  
-          </Routes>
+        <Navbar />
+        <div className="section-container">
+          <Route path="/" exact component={Home} />
+          <Route path="/about" exact component={About} />
+          <Route path="/projects" exact component={Projects} />
+          <Route path="/skills" exact component={Skills} />
+          <Route path="/contact" exact component={Contact} />
+          <GoHome />
         </div>
       </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;
