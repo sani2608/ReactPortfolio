@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./Modal.css";
 
+const LINKEDIN_URL = "https://www.linkedin.com/in/sani2608/";
+
 const Modal = ({ closeModal }) => {
   return ReactDOM.createPortal(
     <div onClick={closeModal} className="modal-overlay">
@@ -13,7 +15,7 @@ const Modal = ({ closeModal }) => {
           </p>
         </div>
         <div className="middle-section">
-          <h3>💻 I am open for ... 👨‍🏫</h3>
+          <h3>💻 Hi there ... 👨‍🏫</h3>
           <p>If you like to talk about tech, then lets connect...</p>
         </div>
         <div className="lower-section">
@@ -21,7 +23,7 @@ const Modal = ({ closeModal }) => {
             Close
           </a>
           <a
-            href="https://www.linkedin.com/in/sani2608/"
+            href={LINKEDIN_URL}
             target="_blank"
             rel="noreferrer"
             className="modal-btn btn-green"

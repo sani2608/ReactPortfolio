@@ -7,9 +7,9 @@ class Home extends Component {
   state = { showModal: false };
 
   componentDidMount() {
-    setTimeout(() => {
-      this.setState({ showModal: true });
-    }, 1000);
+    // setTimeout(() => {
+    //   this.setState({ showModal: true });
+    // }, 1000); ! TEMPORARY COMMENT
   }
 
   closeModal = () => {
