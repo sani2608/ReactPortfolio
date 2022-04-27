@@ -17,7 +17,7 @@ class GoHome extends Component {
         const { location } = this.props;
         const whiteBtn = location.pathname === '/';
         return (
-            <div className='btn'>
+            <div >
                 <button
                     onClick={this.navigateToHome}
                     className={`go-home-btn ${whiteBtn ? 'white-bkg' : 'gradient-bkg'
