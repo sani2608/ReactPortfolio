@@ -1,8 +1,19 @@
 import React from 'react'
 import './Projects.css';
+import FooterLink from "../FooterLink/FooterLink";
+import Header from "../Header/Header";
 
 const Projects = () => {
-  return <div className="section-container">I am in Projects page!</div>;
-}
+  return (
+    <div className="section-container">
+      <Header
+        heading="Projects"
+        details="Passionate about new technologies. In love with JavaScript."
+      />
 
-export default Projects
+      <FooterLink phrase="Checkout my" link="projects." toAddress="/projects" />
+    </div>
+  );
+};
+
+export default Projects;

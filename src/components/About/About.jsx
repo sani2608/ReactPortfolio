@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Header from "../Header/Header";
 import "./About.css";
 import aboutVector from "./../../assets/about_vector.png";
@@ -20,8 +20,8 @@ const About = () => {
           {/** sub section 1 */}
           <h3 className="about-sub-head">Software Engineer</h3>
           <p className="about-details">
-            Coding is my passion, I love to meet new people with same interest
-            and talk about tech. &nbsp;
+            Coding is my passion, I love to meet new people with same interest and talk about tech.
+            &nbsp;
             {/**
                <a
               className="about-link-element"
@@ -34,28 +34,25 @@ const About = () => {
           </p>
 
           {/** sub section 1 */}
-          <h3 className="about-sub-head">Music Artist</h3>
+          <h3 className="about-sub-head">Musician</h3>
           <p className="about-details">
-            The main instrument which I play is Table. I also know how to play
-            Harmonium, piano, and Guitar (beginner).
+            The main instrument which I play is Table. I also know how to play Harmonium, piano, and
+            Guitar (beginner).
             <br /> I am in love with Indian classical music.
-            <br /> Apart from this, I listen to EDM, House techno music, etc.
+            <br /> Apart from this, I listen to EDM, House, techno, trance music, etc.
           </p>
 
           {/** sub section 3 */}
           <h3 className="about-sub-head">Fitness Freak</h3>
           <p className="about-details">
-            I have been weight lifting for almost three years now. I can give
-            you personalized workout plans and diet plans. I will be happy to
-            connect and discus. Lets connect on &nbsp;
-            <a
-              className="about-link-element"
-              href={LINKEDIN_URL}
-              target="_blank"
-            >
+            I have been weight lifting for almost three years now. I can give you personalized
+            workout plans and diet plans. I will be happy to connect and discus. Lets connect on
+            &nbsp;
+            <a className="about-link-element" href={LINKEDIN_URL} target="_blank">
               LinkedIn
             </a>
-            <h5>...</h5>
+            <br />
+            <span>...</span>
           </p>
         </div>
         <div className="about-main-right">
@@ -63,11 +60,7 @@ const About = () => {
         </div>
       </div>
 
-      <FooterLink
-        phrase="Check out my"
-        link="projects!"
-        toAddress="/projects"
-      />
+      <FooterLink phrase="Check out my" link="projects!" toAddress="/projects" />
 
       {/** vector frame */}
       <div className="vector-frame">
