@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.79f1eafb.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.2bee1c60.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.2bee1c60.chunk.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.496f4f3b.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.d8f8c716.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.d8f8c716.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.3ba5e522.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.3ba5e522.js.map",
-    "static/js/2.ec5b0b95.chunk.js": "/ReactPortfolio/static/js/2.ec5b0b95.chunk.js",
-    "static/js/2.ec5b0b95.chunk.js.map": "/ReactPortfolio/static/js/2.ec5b0b95.chunk.js.map",
+    "static/js/2.4318e14f.chunk.js": "/ReactPortfolio/static/js/2.4318e14f.chunk.js",
+    "static/js/2.4318e14f.chunk.js.map": "/ReactPortfolio/static/js/2.4318e14f.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "static/css/main.79f1eafb.chunk.css.map": "/ReactPortfolio/static/css/main.79f1eafb.chunk.css.map",
-    "static/js/2.ec5b0b95.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.ec5b0b95.chunk.js.LICENSE.txt",
+    "static/css/main.496f4f3b.chunk.css.map": "/ReactPortfolio/static/css/main.496f4f3b.chunk.css.map",
+    "static/js/2.4318e14f.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.4318e14f.chunk.js.LICENSE.txt",
     "static/media/about_anime.986764c2.gif": "/ReactPortfolio/static/media/about_anime.986764c2.gif",
     "static/media/about_vector.c42fe3db.png": "/ReactPortfolio/static/media/about_vector.c42fe3db.png",
-    "static/media/home_anime.f372ef86.gif": "/ReactPortfolio/static/media/home_anime.f372ef86.gif"
+    "static/media/contact_anime.1f3936c4.png": "/ReactPortfolio/static/media/contact_anime.1f3936c4.png",
+    "static/media/home_anime.f372ef86.gif": "/ReactPortfolio/static/media/home_anime.f372ef86.gif",
+    "static/media/skills_vector.1fb5f4a4.png": "/ReactPortfolio/static/media/skills_vector.1fb5f4a4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3ba5e522.js",
-    "static/js/2.ec5b0b95.chunk.js",
-    "static/css/main.79f1eafb.chunk.css",
-    "static/js/main.2bee1c60.chunk.js"
+    "static/js/2.4318e14f.chunk.js",
+    "static/css/main.496f4f3b.chunk.css",
+    "static/js/main.d8f8c716.chunk.js"
   ]
 }
