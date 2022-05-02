@@ -35,8 +35,16 @@ export const projectsData = [
     projectName: 'Portfolio Website',
     projectDescription:
       'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
-    imageUrl: 'https://madhavbahl.tech/portfolio-assets/proj5.PNG',
+    imageUrl: 'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/portfolio.png',
     codeUrl: 'https://github.com/sani2608/ReactPortfolio',
     projectUrl: 'https://sani2608.github.io/ReactPortfolio/'
+  },
+  {
+    projectName: 'React Lazyloading',
+    projectDescription:
+      'Implemented Lazyloading in React using IntersectionObserver',
+    imageUrl: 'https://raw.githubusercontent.com/sani2608/ReactLazyLoading/main/src/assets/lazyLoading.png',
+    codeUrl: 'https://github.com/sani2608/ReactLazyLoading',
+    projectUrl: 'https://sage-basbousa-f8848e.netlify.app/'
   }
 ];
