@@ -87,6 +87,10 @@
     text-align: center;
 }
 
+.download-resume {
+  cursor: pointer;
+}
+
 .splash-image {
     display: flex;
     flex-direction: column;

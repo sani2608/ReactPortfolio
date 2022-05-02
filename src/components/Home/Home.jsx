@@ -1,8 +1,11 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
-import "./Home.css";
-import homeAnime from "./../../assets/home_anime.gif";
-import Modal from "../Modal/Modal";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import './Home.css';
+import homeAnime from './../../assets/home_anime.gif';
+import Modal from '../Modal/Modal';
+
+const REUSME_LINK =
+  'https://drive.google.com/file/d/1xpJzeHZ40KiZReQMq0V_LwMekXPC66a9/view?usp=sharing';
 class Home extends Component {
   state = { showModal: false };
 
@@ -17,10 +20,10 @@ class Home extends Component {
   };
 
   render() {
-    console.log("IM IN HOME");
+    console.log('IM IN HOME');
     return (
       <div className="home-container">
-        {this.state.showModal && <Modal  closeModal={this.closeModal}/>}
+        {this.state.showModal && <Modal closeModal={this.closeModal} />}
         <div>
           <div className="header-text">
             <h1>Welcome to my portfolio!</h1>
@@ -34,6 +37,9 @@ class Home extends Component {
             <Link to="/contact" className="btn btn-transparent">
               <p className="btn-text">Connect with me </p>
             </Link>
+            <a className="btn btn-transparent download-resume" href={REUSME_LINK} target="_blank">
+              Download my resume
+            </a>
           </div>
 
           <div className="splash-image">
