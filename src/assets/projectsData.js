@@ -47,5 +47,13 @@ export const projectsData = [
       'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/lazyLoading.png',
     codeUrl: 'https://github.com/sani2608/ReactLazyLoading',
     projectUrl: 'https://sage-basbousa-f8848e.netlify.app/'
+  },
+  {
+    projectName: 'News App',
+    projectDescription: 'React new app',
+    imageUrl:
+      'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/newsapp.png',
+    codeUrl: 'https://github.com/sani2608/react-news-app',
+    projectUrl: 'https://sani2608.github.io/react-news-app/'
   }
 ];
