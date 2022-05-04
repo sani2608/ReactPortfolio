@@ -50,7 +50,7 @@ export const projectsData = [
   },
   {
     projectName: 'News App',
-    projectDescription: 'React new app',
+    projectDescription: 'React new app. It has debouncing implemented in search bar to reduce the api calls.',
     imageUrl:
       'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/newsapp.png',
     codeUrl: 'https://github.com/sani2608/react-news-app',
