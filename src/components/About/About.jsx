@@ -36,7 +36,7 @@ const About = () => {
           {/** sub section 1 */}
           <h3 className="about-sub-head">Musician</h3>
           <p className="about-details">
-            The main instrument which I play is Table. I also know how to play Harmonium, piano, and
+            The main instrument which I play is Tabla. I also know how to play Harmonium, piano, and
             Guitar (beginner).
             <br /> I am in love with Indian classical music.
             <br /> Apart from this, I listen to EDM, House, techno, trance music, etc.
