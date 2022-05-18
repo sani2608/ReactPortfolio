@@ -34,15 +34,23 @@ export const projectsData = [
   {
     projectName: 'Portfolio Website',
     projectDescription:
-      'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits. But, a lot of people feel that it would be tough to make one. So here I bring you a tutorial to make your own website.',
+      'As a developer/designer, you should definitely have your own portfolio website. There are endless benefits.',
     imageUrl:
       'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/portfolio.png',
     codeUrl: 'https://github.com/sani2608/ReactPortfolio',
     projectUrl: 'https://sani2608.github.io/ReactPortfolio/'
   },
   {
+    projectName: 'Movie Search',
+    projectDescription: 'Millions of movies, TV shows to discover. Explore now. Built with React and Material UI.',
+    imageUrl:
+      'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/movieApp.png',
+    codeUrl: 'https://github.com/sani2608/ReactMoviesSearch',
+    projectUrl: 'https://moviessearchappsani.netlify.app/'
+  },
+  {
     projectName: 'React Lazyloading',
-    projectDescription: 'Implemented Lazyloading in React using IntersectionObserver',
+    projectDescription: "What is infinite scrolling good for? Infinite scrolling is a web-design technique that loads content continuously as the user scrolls down the page, eliminating the need for pagination. I have Implemented Lazyloading in React using IntersectionObserver",
     imageUrl:
       'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/lazyLoading.png',
     codeUrl: 'https://github.com/sani2608/ReactLazyLoading',
@@ -50,7 +58,7 @@ export const projectsData = [
   },
   {
     projectName: 'News App',
-    projectDescription: 'React new app. It has debouncing implemented in search bar to reduce the api calls.',
+    projectDescription: 'Offers the information to the public, political, social, sports, health, entertainment etc. It has debouncing implemented in search bar to reduce the api calls.',
     imageUrl:
       'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/newsapp.png',
     codeUrl: 'https://github.com/sani2608/react-news-app',
