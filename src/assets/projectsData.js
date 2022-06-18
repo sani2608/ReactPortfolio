@@ -72,7 +72,7 @@ export const projectsData = [
     projectDescription:
       'Dashboard App built with tailwind css and syncfusion components. Syncfusion UI Component Suite for Building Powerful Web, Desktop, and Mobile Apps',
     imageUrl:
-      'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/newsapp.png',
+      'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/React-App-tailwind.png',
     codeUrl: 'https://github.com/sani2608/ReactDashboard',
     projectUrl: 'https://sani2608.github.io/ReactDashboard/'
   },
@@ -81,7 +81,7 @@ export const projectsData = [
     projectDescription:
       'MUI offers a comprehensive suite of UI tools to help you ship new features faster.',
     imageUrl:
-      'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/newsapp.png',
+      'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/React-Material-App.png',
     codeUrl: 'https://github.com/sani2608/react-material-ui-social-media',
     projectUrl: 'https://sani2608.github.io/react-material-ui-social-media/'
   }
