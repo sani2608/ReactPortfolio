@@ -42,7 +42,8 @@ export const projectsData = [
   },
   {
     projectName: 'Movie Search',
-    projectDescription: 'Millions of movies, TV shows to discover. Explore now. Built with React and Material UI.',
+    projectDescription:
+      'Millions of movies, TV shows to discover. Explore now. Built with React and Material UI.',
     imageUrl:
       'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/movieApp.png',
     codeUrl: 'https://github.com/sani2608/ReactMoviesSearch',
@@ -50,7 +51,8 @@ export const projectsData = [
   },
   {
     projectName: 'React Lazyloading',
-    projectDescription: "What is infinite scrolling good for? Infinite scrolling is a web-design technique that loads content continuously as the user scrolls down the page, eliminating the need for pagination. I have Implemented Lazyloading in React using IntersectionObserver",
+    projectDescription:
+      'What is infinite scrolling good for? Infinite scrolling is a web-design technique that loads content continuously as the user scrolls down the page, eliminating the need for pagination. I have Implemented Lazyloading in React using IntersectionObserver',
     imageUrl:
       'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/lazyLoading.png',
     codeUrl: 'https://github.com/sani2608/ReactLazyLoading',
@@ -58,10 +60,29 @@ export const projectsData = [
   },
   {
     projectName: 'News App',
-    projectDescription: 'Offers the information to the public, political, social, sports, health, entertainment etc. It has debouncing implemented in search bar to reduce the api calls.',
+    projectDescription:
+      'Offers the information to the public, political, social, sports, health, entertainment etc. It has debouncing implemented in search bar to reduce the api calls.',
     imageUrl:
       'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/newsapp.png',
     codeUrl: 'https://github.com/sani2608/react-news-app',
     projectUrl: 'https://sani2608.github.io/react-news-app/'
+  },
+  {
+    projectName: 'React Dashboard',
+    projectDescription:
+      'Dashboard App built with tailwind css and syncfusion components. Syncfusion UI Component Suite for Building Powerful Web, Desktop, and Mobile Apps',
+    imageUrl:
+      'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/newsapp.png',
+    codeUrl: 'https://github.com/sani2608/ReactDashboard',
+    projectUrl: 'https://sani2608.github.io/ReactDashboard/'
+  },
+  {
+    projectName: 'React Material Social Media App',
+    projectDescription:
+      'MUI offers a comprehensive suite of UI tools to help you ship new features faster.',
+    imageUrl:
+      'https://raw.githubusercontent.com/sani2608/ReactPortfolio/main/src/assets/newsapp.png',
+    codeUrl: 'https://github.com/sani2608/react-material-ui-social-media',
+    projectUrl: 'https://sani2608.github.io/react-material-ui-social-media/'
   }
 ];
