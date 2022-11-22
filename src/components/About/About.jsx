@@ -7,8 +7,9 @@ import FooterLink from "../FooterLink/FooterLink";
 
 const ABOUT_ME = "About Me.";
 const DETAILS =
-  "I am a web application developer having expertise in frontend development. I design and develop web applications for enterprise using SAP UI5 to deliver the product with quality code.";
+  "I am a web application developer having expertise in frontend development. I design and develop web applications for enterprise to deliver the product with quality code.";
 const LINKEDIN_URL = "https://www.linkedin.com/in/sani2608/";
+const INSTAGRAM_URL = "https://www.instagram.com/26sunny/";
 
 const About = () => {
   return (
@@ -36,8 +37,8 @@ const About = () => {
           {/** sub section 1 */}
           <h3 className="about-sub-head">Musician</h3>
           <p className="about-details">
-            The main instrument which I play is Tabla. I also know how to play Harmonium, piano, and
-            Guitar (beginner).
+            The main instrument which I play is Tabla. I also know how to play Harmonium, piano.
+
             <br /> I am in love with Indian classical music.
             <br /> Apart from this, I listen to EDM, House, techno, trance music, etc.
           </p>
@@ -50,6 +51,17 @@ const About = () => {
             &nbsp;
             <a className="about-link-element" href={LINKEDIN_URL} target="_blank">
               LinkedIn
+            </a>
+            <br />
+          </p>
+
+          {/** sub section 4 */}
+          <h3 className="about-sub-head">Travel</h3>
+          <p className="about-details">
+            I like to travel on my bike to different places. You can check out my posts on
+            &nbsp;
+            <a className="about-link-element" href={INSTAGRAM_URL} target="_blank">
+              Instagram
             </a>
             <br />
             <span>...</span>
